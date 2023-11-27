@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <div class="isi-title">
+                <h1>To do List App</h1>
+                <p>Organize your time for more productive</p>
+            </div>
+        </div>
+        <div class="add-todo">
+            <div class="buat-todo">
+                <input class="tambahtodo" type="text" id="tambahtodo" placeholder="Create a new to do"
+                    autocomplete="off">
+                <button class="btn-task" onclick="addItem()">Add</button>
+            </div>
+        </div>
+        <ul class="todo-list" id="list-data"></ul>
+        <div class="buatIsi">
+            <p class="remainingTodo" id="remaining-todos">Your Remaining Todo's : <span id="todo-count">0</span></p>
+        </div>
+    </div>
+
+    <script src="script.js">
+       
+    </script>
+</body>
+
+</html>
